@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		572BB9A01CFEB89300BB981F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB99F1CFEB89300BB981F /* main.m */; };
+		572BB9A31CFEB89300BB981F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9A21CFEB89300BB981F /* AppDelegate.m */; };
+		572BB9A61CFEB89300BB981F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9A51CFEB89300BB981F /* ViewController.m */; };
+		572BB9A91CFEB89300BB981F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572BB9A71CFEB89300BB981F /* Main.storyboard */; };
+		572BB9AC1CFEB89300BB981F /* XM_NSNotification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9AA1CFEB89300BB981F /* XM_NSNotification.xcdatamodeld */; };
+		572BB9AE1CFEB89300BB981F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572BB9AD1CFEB89300BB981F /* Assets.xcassets */; };
+		572BB9B11CFEB89300BB981F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572BB9AF1CFEB89300BB981F /* LaunchScreen.storyboard */; };
+		572BB9BC1CFEB89300BB981F /* XM_NSNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9BB1CFEB89300BB981F /* XM_NSNotificationTests.m */; };
+		572BB9C71CFEB89300BB981F /* XM_NSNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9C61CFEB89300BB981F /* XM_NSNotificationUITests.m */; };
+		572BB9DF1CFEB94700BB981F /* XMNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9D81CFEB94700BB981F /* XMNotificationCenter.m */; };
+		572BB9E01CFEB94700BB981F /* NSNotificationCenter+XM.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9DA1CFEB94700BB981F /* NSNotificationCenter+XM.m */; };
+		572BB9E11CFEB94700BB981F /* NSObject+dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9DC1CFEB94700BB981F /* NSObject+dealloc.m */; };
+		572BB9E51CFEB98600BB981F /* XMViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9E41CFEB98600BB981F /* XMViewControllerOne.m */; };
+		572BB9E81CFEB9B000BB981F /* XMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BB9E71CFEB9B000BB981F /* XMNavigationController.m */; };
+		575C2C751CFFC09F00408E8E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 575C2C741CFFC09F00408E8E /* Person.m */; };
+		579BB7C01D02A3FD0077B726 /* XMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 579BB7BF1D02A3FD0077B726 /* XMView.m */; };
+		579BB81A1D02EFE10077B726 /* XMImplenmentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 579BB8191D02EFE10077B726 /* XMImplenmentation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		572BB9B81CFEB89300BB981F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572BB9931CFEB89300BB981F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572BB99A1CFEB89300BB981F;
+			remoteInfo = XM_NSNotification;
+		};
+		572BB9C31CFEB89300BB981F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572BB9931CFEB89300BB981F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572BB99A1CFEB89300BB981F;
+			remoteInfo = XM_NSNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		572BB99B1CFEB89300BB981F /* XM_NSNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XM_NSNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		572BB99F1CFEB89300BB981F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		572BB9A11CFEB89300BB981F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XM_NSNotification/AppDelegate.h; sourceTree = "<group>"; };
+		572BB9A21CFEB89300BB981F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = XM_NSNotification/AppDelegate.m; sourceTree = "<group>"; };
+		572BB9A41CFEB89300BB981F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = XM_NSNotification/ViewController.h; sourceTree = "<group>"; };
+		572BB9A51CFEB89300BB981F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = XM_NSNotification/ViewController.m; sourceTree = "<group>"; };
+		572BB9A81CFEB89300BB981F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		572BB9AB1CFEB89300BB981F /* XM_NSNotification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XM_NSNotification.xcdatamodel; sourceTree = "<group>"; };
+		572BB9AD1CFEB89300BB981F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = XM_NSNotification/Assets.xcassets; sourceTree = "<group>"; };
+		572BB9B01CFEB89300BB981F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		572BB9B21CFEB89300BB981F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = XM_NSNotification/Info.plist; sourceTree = "<group>"; };
+		572BB9B71CFEB89300BB981F /* XM_NSNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XM_NSNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572BB9BB1CFEB89300BB981F /* XM_NSNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XM_NSNotificationTests.m; sourceTree = "<group>"; };
+		572BB9BD1CFEB89300BB981F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572BB9C21CFEB89300BB981F /* XM_NSNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XM_NSNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572BB9C61CFEB89300BB981F /* XM_NSNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XM_NSNotificationUITests.m; sourceTree = "<group>"; };
+		572BB9C81CFEB89300BB981F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572BB9D71CFEB94700BB981F /* XMNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNotificationCenter.h; sourceTree = "<group>"; };
+		572BB9D81CFEB94700BB981F /* XMNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMNotificationCenter.m; sourceTree = "<group>"; };
+		572BB9D91CFEB94700BB981F /* NSNotificationCenter+XM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+XM.h"; sourceTree = "<group>"; };
+		572BB9DA1CFEB94700BB981F /* NSNotificationCenter+XM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+XM.m"; sourceTree = "<group>"; };
+		572BB9DB1CFEB94700BB981F /* NSObject+dealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+dealloc.h"; sourceTree = "<group>"; };
+		572BB9DC1CFEB94700BB981F /* NSObject+dealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+dealloc.m"; sourceTree = "<group>"; };
+		572BB9E31CFEB98600BB981F /* XMViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMViewControllerOne.h; sourceTree = "<group>"; };
+		572BB9E41CFEB98600BB981F /* XMViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMViewControllerOne.m; sourceTree = "<group>"; };
+		572BB9E61CFEB9B000BB981F /* XMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNavigationController.h; sourceTree = "<group>"; };
+		572BB9E71CFEB9B000BB981F /* XMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMNavigationController.m; sourceTree = "<group>"; };
+		575C2C731CFFC09F00408E8E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		575C2C741CFFC09F00408E8E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		579BB7BE1D02A3FD0077B726 /* XMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMView.h; sourceTree = "<group>"; };
+		579BB7BF1D02A3FD0077B726 /* XMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMView.m; sourceTree = "<group>"; };
+		579BB8181D02EFE10077B726 /* XMImplenmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMImplenmentation.h; sourceTree = "<group>"; };
+		579BB8191D02EFE10077B726 /* XMImplenmentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMImplenmentation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		572BB9981CFEB89300BB981F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572BB9B41CFEB89300BB981F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572BB9BF1CFEB89300BB981F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572BB9921CFEB89200BB981F = {
+			isa = PBXGroup;
+			children = (
+				572BB99D1CFEB89300BB981F /* XM_NSNotification */,
+				572BB9D61CFEB8E600BB981F /* main */,
+				572BB9D51CFEB8BA00BB981F /* controller */,
+				575C2C721CFFC06D00408E8E /* model */,
+				572BB9D41CFEB8A700BB981F /* other */,
+				572BB99E1CFEB89300BB981F /* Supporting Files */,
+				572BB9BA1CFEB89300BB981F /* XM_NSNotificationTests */,
+				572BB9C51CFEB89300BB981F /* XM_NSNotificationUITests */,
+				572BB99C1CFEB89300BB981F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		572BB99C1CFEB89300BB981F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				572BB99B1CFEB89300BB981F /* XM_NSNotification.app */,
+				572BB9B71CFEB89300BB981F /* XM_NSNotificationTests.xctest */,
+				572BB9C21CFEB89300BB981F /* XM_NSNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		572BB99D1CFEB89300BB981F /* XM_NSNotification */ = {
+			isa = PBXGroup;
+			children = (
+				572BB9D71CFEB94700BB981F /* XMNotificationCenter.h */,
+				572BB9D81CFEB94700BB981F /* XMNotificationCenter.m */,
+				572BB9D91CFEB94700BB981F /* NSNotificationCenter+XM.h */,
+				572BB9DA1CFEB94700BB981F /* NSNotificationCenter+XM.m */,
+				572BB9DB1CFEB94700BB981F /* NSObject+dealloc.h */,
+				572BB9DC1CFEB94700BB981F /* NSObject+dealloc.m */,
+				579BB8181D02EFE10077B726 /* XMImplenmentation.h */,
+				579BB8191D02EFE10077B726 /* XMImplenmentation.m */,
+			);
+			path = XM_NSNotification;
+			sourceTree = "<group>";
+		};
+		572BB99E1CFEB89300BB981F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				572BB99F1CFEB89300BB981F /* main.m */,
+			);
+			name = "Supporting Files";
+			path = XM_NSNotification;
+			sourceTree = "<group>";
+		};
+		572BB9BA1CFEB89300BB981F /* XM_NSNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				572BB9BB1CFEB89300BB981F /* XM_NSNotificationTests.m */,
+				572BB9BD1CFEB89300BB981F /* Info.plist */,
+			);
+			path = XM_NSNotificationTests;
+			sourceTree = "<group>";
+		};
+		572BB9C51CFEB89300BB981F /* XM_NSNotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				572BB9C61CFEB89300BB981F /* XM_NSNotificationUITests.m */,
+				572BB9C81CFEB89300BB981F /* Info.plist */,
+			);
+			path = XM_NSNotificationUITests;
+			sourceTree = "<group>";
+		};
+		572BB9D41CFEB8A700BB981F /* other */ = {
+			isa = PBXGroup;
+			children = (
+				572BB9A71CFEB89300BB981F /* Main.storyboard */,
+				572BB9AD1CFEB89300BB981F /* Assets.xcassets */,
+				572BB9AF1CFEB89300BB981F /* LaunchScreen.storyboard */,
+				572BB9B21CFEB89300BB981F /* Info.plist */,
+				572BB9AA1CFEB89300BB981F /* XM_NSNotification.xcdatamodeld */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		572BB9D51CFEB8BA00BB981F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				572BB9A41CFEB89300BB981F /* ViewController.h */,
+				572BB9A51CFEB89300BB981F /* ViewController.m */,
+				572BB9E31CFEB98600BB981F /* XMViewControllerOne.h */,
+				572BB9E41CFEB98600BB981F /* XMViewControllerOne.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		572BB9D61CFEB8E600BB981F /* main */ = {
+			isa = PBXGroup;
+			children = (
+				572BB9A11CFEB89300BB981F /* AppDelegate.h */,
+				572BB9A21CFEB89300BB981F /* AppDelegate.m */,
+				572BB9E61CFEB9B000BB981F /* XMNavigationController.h */,
+				572BB9E71CFEB9B000BB981F /* XMNavigationController.m */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		575C2C721CFFC06D00408E8E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				575C2C731CFFC09F00408E8E /* Person.h */,
+				575C2C741CFFC09F00408E8E /* Person.m */,
+				579BB7BE1D02A3FD0077B726 /* XMView.h */,
+				579BB7BF1D02A3FD0077B726 /* XMView.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		572BB99A1CFEB89300BB981F /* XM_NSNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572BB9CB1CFEB89300BB981F /* Build configuration list for PBXNativeTarget "XM_NSNotification" */;
+			buildPhases = (
+				572BB9971CFEB89300BB981F /* Sources */,
+				572BB9981CFEB89300BB981F /* Frameworks */,
+				572BB9991CFEB89300BB981F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XM_NSNotification;
+			productName = XM_NSNotification;
+			productReference = 572BB99B1CFEB89300BB981F /* XM_NSNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		572BB9B61CFEB89300BB981F /* XM_NSNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572BB9CE1CFEB89300BB981F /* Build configuration list for PBXNativeTarget "XM_NSNotificationTests" */;
+			buildPhases = (
+				572BB9B31CFEB89300BB981F /* Sources */,
+				572BB9B41CFEB89300BB981F /* Frameworks */,
+				572BB9B51CFEB89300BB981F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572BB9B91CFEB89300BB981F /* PBXTargetDependency */,
+			);
+			name = XM_NSNotificationTests;
+			productName = XM_NSNotificationTests;
+			productReference = 572BB9B71CFEB89300BB981F /* XM_NSNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		572BB9C11CFEB89300BB981F /* XM_NSNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572BB9D11CFEB89300BB981F /* Build configuration list for PBXNativeTarget "XM_NSNotificationUITests" */;
+			buildPhases = (
+				572BB9BE1CFEB89300BB981F /* Sources */,
+				572BB9BF1CFEB89300BB981F /* Frameworks */,
+				572BB9C01CFEB89300BB981F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572BB9C41CFEB89300BB981F /* PBXTargetDependency */,
+			);
+			name = XM_NSNotificationUITests;
+			productName = XM_NSNotificationUITests;
+			productReference = 572BB9C21CFEB89300BB981F /* XM_NSNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		572BB9931CFEB89300BB981F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Guoxiaoming;
+				TargetAttributes = {
+					572BB99A1CFEB89300BB981F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					572BB9B61CFEB89300BB981F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 572BB99A1CFEB89300BB981F;
+					};
+					572BB9C11CFEB89300BB981F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 572BB99A1CFEB89300BB981F;
+					};
+				};
+			};
+			buildConfigurationList = 572BB9961CFEB89300BB981F /* Build configuration list for PBXProject "XM_NSNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 572BB9921CFEB89200BB981F;
+			productRefGroup = 572BB99C1CFEB89300BB981F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				572BB99A1CFEB89300BB981F /* XM_NSNotification */,
+				572BB9B61CFEB89300BB981F /* XM_NSNotificationTests */,
+				572BB9C11CFEB89300BB981F /* XM_NSNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		572BB9991CFEB89300BB981F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572BB9B11CFEB89300BB981F /* LaunchScreen.storyboard in Resources */,
+				572BB9AE1CFEB89300BB981F /* Assets.xcassets in Resources */,
+				572BB9A91CFEB89300BB981F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572BB9B51CFEB89300BB981F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572BB9C01CFEB89300BB981F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		572BB9971CFEB89300BB981F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572BB9A61CFEB89300BB981F /* ViewController.m in Sources */,
+				572BB9E11CFEB94700BB981F /* NSObject+dealloc.m in Sources */,
+				575C2C751CFFC09F00408E8E /* Person.m in Sources */,
+				572BB9E01CFEB94700BB981F /* NSNotificationCenter+XM.m in Sources */,
+				572BB9A31CFEB89300BB981F /* AppDelegate.m in Sources */,
+				579BB81A1D02EFE10077B726 /* XMImplenmentation.m in Sources */,
+				572BB9DF1CFEB94700BB981F /* XMNotificationCenter.m in Sources */,
+				572BB9AC1CFEB89300BB981F /* XM_NSNotification.xcdatamodeld in Sources */,
+				572BB9E81CFEB9B000BB981F /* XMNavigationController.m in Sources */,
+				572BB9E51CFEB98600BB981F /* XMViewControllerOne.m in Sources */,
+				572BB9A01CFEB89300BB981F /* main.m in Sources */,
+				579BB7C01D02A3FD0077B726 /* XMView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572BB9B31CFEB89300BB981F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572BB9BC1CFEB89300BB981F /* XM_NSNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572BB9BE1CFEB89300BB981F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572BB9C71CFEB89300BB981F /* XM_NSNotificationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		572BB9B91CFEB89300BB981F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572BB99A1CFEB89300BB981F /* XM_NSNotification */;
+			targetProxy = 572BB9B81CFEB89300BB981F /* PBXContainerItemProxy */;
+		};
+		572BB9C41CFEB89300BB981F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572BB99A1CFEB89300BB981F /* XM_NSNotification */;
+			targetProxy = 572BB9C31CFEB89300BB981F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		572BB9A71CFEB89300BB981F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				572BB9A81CFEB89300BB981F /* Base */,
+			);
+			name = Main.storyboard;
+			path = XM_NSNotification;
+			sourceTree = "<group>";
+		};
+		572BB9AF1CFEB89300BB981F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				572BB9B01CFEB89300BB981F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = XM_NSNotification;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		572BB9C91CFEB89300BB981F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		572BB9CA1CFEB89300BB981F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		572BB9CC1CFEB89300BB981F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XM_NSNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soufun.XM-NSNotification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		572BB9CD1CFEB89300BB981F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XM_NSNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soufun.XM-NSNotification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		572BB9CF1CFEB89300BB981F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XM_NSNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soufun.XM-NSNotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XM_NSNotification.app/XM_NSNotification";
+			};
+			name = Debug;
+		};
+		572BB9D01CFEB89300BB981F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XM_NSNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soufun.XM-NSNotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XM_NSNotification.app/XM_NSNotification";
+			};
+			name = Release;
+		};
+		572BB9D21CFEB89300BB981F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XM_NSNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soufun.XM-NSNotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XM_NSNotification;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		572BB9D31CFEB89300BB981F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XM_NSNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soufun.XM-NSNotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XM_NSNotification;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		572BB9961CFEB89300BB981F /* Build configuration list for PBXProject "XM_NSNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572BB9C91CFEB89300BB981F /* Debug */,
+				572BB9CA1CFEB89300BB981F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572BB9CB1CFEB89300BB981F /* Build configuration list for PBXNativeTarget "XM_NSNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572BB9CC1CFEB89300BB981F /* Debug */,
+				572BB9CD1CFEB89300BB981F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572BB9CE1CFEB89300BB981F /* Build configuration list for PBXNativeTarget "XM_NSNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572BB9CF1CFEB89300BB981F /* Debug */,
+				572BB9D01CFEB89300BB981F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572BB9D11CFEB89300BB981F /* Build configuration list for PBXNativeTarget "XM_NSNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572BB9D21CFEB89300BB981F /* Debug */,
+				572BB9D31CFEB89300BB981F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		572BB9AA1CFEB89300BB981F /* XM_NSNotification.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				572BB9AB1CFEB89300BB981F /* XM_NSNotification.xcdatamodel */,
+			);
+			currentVersion = 572BB9AB1CFEB89300BB981F /* XM_NSNotification.xcdatamodel */;
+			name = XM_NSNotification.xcdatamodeld;
+			path = XM_NSNotification/XM_NSNotification.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 572BB9931CFEB89300BB981F /* Project object */;
+}
