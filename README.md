@@ -5,6 +5,10 @@
 
 ###1.引入头文件（import header file)
 
+```
+#import "NSNotificationCenter+XM.h"
+```
+
 ###2.代码示例（code example）
 
 //监听对象销毁前移除，也是默认的移除方法
