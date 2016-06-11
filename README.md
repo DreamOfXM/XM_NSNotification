@@ -1,5 +1,5 @@
 # XM_NSNotification
-这是一个保证NSNotification安全的小框架，能够安全的自动帮你移除监听器对象，注册监听器对象的方法和原方法类似，只需一行代码搞定，不用 再担心因忘记移除监听器而造成程序可能出现的种种问题了(The small framework which can guaranteed your nsnotification sadty, can automatically help you remove the observer, the registered method is similar to the original method and only need a line of code. You do not have to worry about various problems caused by your APP because of forgetting to remove the observer)
+这是一个保证NSNotification安全的小框架，能够安全的自动帮你移除监听器对象，注册监听器对象的方法和原方法类似，只需一行代码搞定，不用 再担心因忘记移除监听器而造成程序可能出现的种种问题了(The small framework which can guaranteed your nsnotification safty, can automatically help you remove the observer, the registered method is similar to the original method and only need a line of code. You do not have to worry about various problems caused by your APP because of forgetting to remove the observer)
 
 ##示例如下(for example):
 
@@ -25,3 +25,7 @@
 ```
 [[NSNotificationCenter defaultCenter] xm_addObserver:self selector:@selector(haha:) name:@"haha" object:nil isRightNowRemove:YES];
 ```
+
+如果这个小框架有什么问题希望大家多多批评指正，这是我的新写的博客：http://blog.csdn.net/xmios/article/details/51637074 
+我的邮箱：hnyxgxm2009@163.com
+I hope everyone can help me correct the error if there are mistakes in the small framework.This is my blog which I has writen just now.This is my email hnyxgxm2009@163.com.
