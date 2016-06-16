@@ -14,7 +14,8 @@
 
 @interface XMViewControllerOne ()
 {
-    Person*_p;
+    Person*_p1;
+    Person*_p2;
     Car*_car;
     Dog*_dog;
     Pig*_pig;
@@ -146,7 +147,8 @@
     
     //2 observer is other objects
     //2 监听器是其他对象
-    _p =[Person new];
+    _p1 =[Person new];
+    _p2 =[Person new];
     _car = [Car new];
     _dog = [Dog new];
     _pig = [Pig new];

@@ -210,39 +210,63 @@ static id instance;
 {
  
     
+    
+    IMP objectDeallocImp = objectDeallocImp = class_getMethodImplementation([observer class], NSSelectorFromString(@"dealloc"));
     //获得监听器对象的dealloc方法的实现的指针
-    IMP objectDeallocImp = class_getMethodImplementation([observer class], NSSelectorFromString(@"dealloc"));
-
+    for (XMImplenmentation*imp in _implentationArray) {
+        
+        //获取类的字符串
+        NSString*objcStr = [self observerClassSubstringWith:imp.objectStr];
+        
+        if([observer isKindOfClass:NSClassFromString(objcStr)]){
+            
+            objectDeallocImp = imp.objectDeallocImp;
+            
+        }
+    }
+    
     
     if (!implenmentation) {
-        
         implenmentation = [[XMImplenmentation alloc]init];
         
         implenmentation.objectStr = [observer description];
-//        implenmentation.removed = NO;
+        //        implenmentation.removed = NO;
     }
     
     implenmentation.objectDeallocImp = objectDeallocImp;
     
     if (![_implentationArray containsObject:implenmentation]) {
-     
-    //用全局的字典记录关于实现的这个模型
-    [_implentationArray addObject:implenmentation];
+        
+        //用全局的数组记录关于实现的这个模型
+        [_implentationArray addObject:implenmentation];
         
     }
     
-    //相同的监听对象只交换一次
-    NSInteger number = 0;
+    //相同的监听对象只交换一次，因为相同的监听器对象可能注册不同的方法  //2016.06.15
+    NSInteger number1 = 0;
     for (NSMutableDictionary*info in self.dic[keyInfo]) {
         
         NSString*observerStr = info[obseverKey];
         
         if ([observerStr isEqualToString:[observer description]]) {
             
-            number++;
-            if (number>1) return;
+            number1++;
+            if (number1>1) return;
         }
     }
+    
+    //相同的监听器对象所属的类，只交换一次dealloc的实现
+    NSInteger number2 = 0;
+    for (NSMutableDictionary*info in self.dic[keyInfo]) {
+        
+        NSString*observerStr = info[obseverKey];
+        observerStr = [self observerClassSubstringWith:observerStr];
+        if ([observer isKindOfClass: NSClassFromString(observerStr)]) {
+            number2++;
+            if (number2>1) return;
+        }
+    }
+    
     
     //获取该对象的内部方法
     Method method1 = class_getInstanceMethod([observer class], NSSelectorFromString(@"dealloc"));
@@ -250,8 +274,21 @@ static id instance;
     
     method_setImplementation(method1, _nsobjectXMDeallocImp);
     method_setImplementation(method2, objectDeallocImp);
-  
+    
     NSLog(@"%@注册了通知,并交换了dealloc的实现 == %@",observer,NSStringFromClass([observer class]));
+}
+
+
+/** 截取类名字符串 */
+- (NSString*)observerClassSubstringWith:(NSString*)description
+{
+    
+    NSRange range = [description rangeOfString:@":"];
+    NSString*objcStr = nil;
+    if (range.location != NSNotFound)
+        objcStr = [description substringWithRange:NSMakeRange(1, range.location-1)];
+    
+    return objcStr;
 }
 
 @end

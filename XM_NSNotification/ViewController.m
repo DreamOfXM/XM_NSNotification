@@ -19,6 +19,16 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    UILabel*clickview = [[UILabel alloc]init];
+    clickview.center = CGPointMake(self.view.bounds.size.width/2, self.view.bounds.size.height/2);
+    CGRect bound = CGRectMake(0, 0, 60, 30);
+    clickview.bounds = bound;
+    clickview.backgroundColor = [UIColor redColor];
+    clickview.text = @"Enter";
+    clickview.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:clickview];
+    
+    
 }
 
 

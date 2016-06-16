@@ -26,4 +26,7 @@ typedef void(^completedBlock)(id observer);
 
 /** 接受到通知后是否立即移除监听器 */
 - (void)builtWithNotificationCenter:(id)observer selector:(SEL)aSelector name:(NSString *)aName object:(id)anObject isRightNowRemove:(BOOL)isRightNowRemove;
+
+/** 截取类名字符串 */
+- (NSString*)observerClassSubstringWith:(NSString*)description;
 @end
