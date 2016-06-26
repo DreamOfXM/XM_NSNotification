@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XMImplenmentation : NSObject<NSCopying>
+@interface XMImplenmentation : NSObject
 
 /** 监听对象dealloc实现的指针 */
 @property (nonatomic, assign)IMP objectDeallocImp;
