@@ -46,15 +46,15 @@
 /* Begin PBXFileReference section */
 		572BB99B1CFEB89300BB981F /* XM_NSNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XM_NSNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		572BB99F1CFEB89300BB981F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		572BB9A11CFEB89300BB981F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XM_NSNotification/AppDelegate.h; sourceTree = "<group>"; };
-		572BB9A21CFEB89300BB981F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = XM_NSNotification/AppDelegate.m; sourceTree = "<group>"; };
-		572BB9A41CFEB89300BB981F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = XM_NSNotification/ViewController.h; sourceTree = "<group>"; };
-		572BB9A51CFEB89300BB981F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = XM_NSNotification/ViewController.m; sourceTree = "<group>"; };
+		572BB9A11CFEB89300BB981F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		572BB9A21CFEB89300BB981F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		572BB9A41CFEB89300BB981F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		572BB9A51CFEB89300BB981F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		572BB9A81CFEB89300BB981F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		572BB9AB1CFEB89300BB981F /* XM_NSNotification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XM_NSNotification.xcdatamodel; sourceTree = "<group>"; };
-		572BB9AD1CFEB89300BB981F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = XM_NSNotification/Assets.xcassets; sourceTree = "<group>"; };
+		572BB9AD1CFEB89300BB981F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572BB9B01CFEB89300BB981F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		572BB9B21CFEB89300BB981F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = XM_NSNotification/Info.plist; sourceTree = "<group>"; };
+		572BB9B21CFEB89300BB981F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572BB9B71CFEB89300BB981F /* XM_NSNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XM_NSNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		572BB9BB1CFEB89300BB981F /* XM_NSNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XM_NSNotificationTests.m; sourceTree = "<group>"; };
 		572BB9BD1CFEB89300BB981F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,14 +108,14 @@
 			isa = PBXGroup;
 			children = (
 				572BB99D1CFEB89300BB981F /* XM_NSNotification */,
-				572BB9D61CFEB8E600BB981F /* main */,
 				572BB9D51CFEB8BA00BB981F /* controller */,
 				575C2C721CFFC06D00408E8E /* model */,
 				572BB9D41CFEB8A700BB981F /* other */,
+				572BB9D61CFEB8E600BB981F /* main */,
 				572BB99E1CFEB89300BB981F /* Supporting Files */,
+				572BB99C1CFEB89300BB981F /* Products */,
 				572BB9BA1CFEB89300BB981F /* XM_NSNotificationTests */,
 				572BB9C51CFEB89300BB981F /* XM_NSNotificationUITests */,
-				572BB99C1CFEB89300BB981F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,14 +132,14 @@
 		572BB99D1CFEB89300BB981F /* XM_NSNotification */ = {
 			isa = PBXGroup;
 			children = (
-				572BB9D71CFEB94700BB981F /* XMNotificationCenter.h */,
-				572BB9D81CFEB94700BB981F /* XMNotificationCenter.m */,
 				572BB9D91CFEB94700BB981F /* NSNotificationCenter+XM.h */,
 				572BB9DA1CFEB94700BB981F /* NSNotificationCenter+XM.m */,
 				572BB9DB1CFEB94700BB981F /* NSObject+dealloc.h */,
 				572BB9DC1CFEB94700BB981F /* NSObject+dealloc.m */,
 				579BB8181D02EFE10077B726 /* XMImplenmentation.h */,
 				579BB8191D02EFE10077B726 /* XMImplenmentation.m */,
+				572BB9D71CFEB94700BB981F /* XMNotificationCenter.h */,
+				572BB9D81CFEB94700BB981F /* XMNotificationCenter.m */,
 			);
 			path = XM_NSNotification;
 			sourceTree = "<group>";
@@ -149,15 +149,14 @@
 			children = (
 				572BB99F1CFEB89300BB981F /* main.m */,
 			);
-			name = "Supporting Files";
-			path = XM_NSNotification;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		572BB9BA1CFEB89300BB981F /* XM_NSNotificationTests */ = {
 			isa = PBXGroup;
 			children = (
-				572BB9BB1CFEB89300BB981F /* XM_NSNotificationTests.m */,
 				572BB9BD1CFEB89300BB981F /* Info.plist */,
+				572BB9BB1CFEB89300BB981F /* XM_NSNotificationTests.m */,
 			);
 			path = XM_NSNotificationTests;
 			sourceTree = "<group>";
@@ -165,8 +164,8 @@
 		572BB9C51CFEB89300BB981F /* XM_NSNotificationUITests */ = {
 			isa = PBXGroup;
 			children = (
-				572BB9C61CFEB89300BB981F /* XM_NSNotificationUITests.m */,
 				572BB9C81CFEB89300BB981F /* Info.plist */,
+				572BB9C61CFEB89300BB981F /* XM_NSNotificationUITests.m */,
 			);
 			path = XM_NSNotificationUITests;
 			sourceTree = "<group>";
@@ -174,13 +173,13 @@
 		572BB9D41CFEB8A700BB981F /* other */ = {
 			isa = PBXGroup;
 			children = (
-				572BB9A71CFEB89300BB981F /* Main.storyboard */,
 				572BB9AD1CFEB89300BB981F /* Assets.xcassets */,
-				572BB9AF1CFEB89300BB981F /* LaunchScreen.storyboard */,
 				572BB9B21CFEB89300BB981F /* Info.plist */,
+				572BB9AF1CFEB89300BB981F /* LaunchScreen.storyboard */,
+				572BB9A71CFEB89300BB981F /* Main.storyboard */,
 				572BB9AA1CFEB89300BB981F /* XM_NSNotification.xcdatamodeld */,
 			);
-			name = other;
+			path = other;
 			sourceTree = "<group>";
 		};
 		572BB9D51CFEB8BA00BB981F /* controller */ = {
@@ -191,7 +190,7 @@
 				572BB9E31CFEB98600BB981F /* XMViewControllerOne.h */,
 				572BB9E41CFEB98600BB981F /* XMViewControllerOne.m */,
 			);
-			name = controller;
+			path = controller;
 			sourceTree = "<group>";
 		};
 		572BB9D61CFEB8E600BB981F /* main */ = {
@@ -202,7 +201,7 @@
 				572BB9E61CFEB9B000BB981F /* XMNavigationController.h */,
 				572BB9E71CFEB9B000BB981F /* XMNavigationController.m */,
 			);
-			name = main;
+			path = main;
 			sourceTree = "<group>";
 		};
 		575C2C721CFFC06D00408E8E /* model */ = {
@@ -213,7 +212,7 @@
 				579BB7BE1D02A3FD0077B726 /* XMView.h */,
 				579BB7BF1D02A3FD0077B726 /* XMView.m */,
 			);
-			name = model;
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,7 +398,7 @@
 				572BB9A81CFEB89300BB981F /* Base */,
 			);
 			name = Main.storyboard;
-			path = XM_NSNotification;
+			path = .;
 			sourceTree = "<group>";
 		};
 		572BB9AF1CFEB89300BB981F /* LaunchScreen.storyboard */ = {
@@ -408,7 +407,7 @@
 				572BB9B01CFEB89300BB981F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = XM_NSNotification;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -498,7 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XM_NSNotification/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.soufun.XM-NSNotification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,7 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XM_NSNotification/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.soufun.XM-NSNotification";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -612,8 +611,7 @@
 				572BB9AB1CFEB89300BB981F /* XM_NSNotification.xcdatamodel */,
 			);
 			currentVersion = 572BB9AB1CFEB89300BB981F /* XM_NSNotification.xcdatamodel */;
-			name = XM_NSNotification.xcdatamodeld;
-			path = XM_NSNotification/XM_NSNotification.xcdatamodeld;
+			path = XM_NSNotification.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
