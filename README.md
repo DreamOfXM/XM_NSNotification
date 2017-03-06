@@ -9,16 +9,16 @@ pod 'XM_NSNotification'
 ## 2.2 手动拖入
 直接将XM_NSNotification文件夹拖入即可
 
-## 3 示例如下(for example):
+# 3 示例如下(for example):
 
 
-###  3.1 引入头文件（import header file)
+##  3.1 引入头文件（import header file)
 
 ```
 #import "NSNotificationCenter+XM.h"
 ```
 
-###  3.2 代码示例（code example）
+##  3.2 代码示例（code example）
 
 //监听对象销毁前移除，也是默认的移除方法
 
