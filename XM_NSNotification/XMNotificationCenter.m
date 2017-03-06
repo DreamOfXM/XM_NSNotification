@@ -9,7 +9,7 @@
 
 #import "XMNotificationCenter.h"
 #import <objc/runtime.h>
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 #import "NSObject+dealloc.h"
 
 
@@ -184,17 +184,16 @@ static id instance;
 
 - (void)exchangeImplementationWithNotificationWithObserver:(id)observer withModel:(XMImplenmentation*)implenmentation
 {
-    
     __weak typeof(self)weakSelf = self;
+//    __unsafe_unretained typeof(self)weakSelf = self;
     self.complection = ^(id observer){
-
+        __strong typeof (weakSelf)strongSelf = weakSelf;
         //删除该监听对象的所有信息
-        NSMutableArray*infos = [NSMutableArray arrayWithArray:[weakSelf.dic[keyInfo] copy]];
-        
+        NSMutableArray*infos = [NSMutableArray arrayWithArray:[strongSelf.dic[keyInfo] copy]];
         for (NSMutableDictionary*dic in infos) {
             if ([dic[obseverKey] isEqualToString:[observer description]]) {
                 //从数组中移除
-                [weakSelf.dic[keyInfo] removeObject:dic];
+                [strongSelf.dic[keyInfo] removeObject:dic];
                 //移除通知中心注册过的监听器对象
                 [[NSNotificationCenter defaultCenter]removeObserver:observer name:dic[notifacationName] object:dic[notifacationObjectKey]];
             }
