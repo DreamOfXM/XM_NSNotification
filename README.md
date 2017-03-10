@@ -3,7 +3,7 @@
 
 # 2 使用(Usage)
 ## 2.1 Cocoapods
-```
+```objc
 pod 'XM_NSNotification'
 ```
 ## 2.2 手动拖入
@@ -14,7 +14,7 @@ pod 'XM_NSNotification'
 
 ##  3.1 引入头文件（import header file)
 
-```
+```objc
 #import "NSNotificationCenter+XM.h"
 ```
 
@@ -24,14 +24,14 @@ pod 'XM_NSNotification'
 
 //remove observer before observer crash (defaullt)
 
-```
+```objc
 [[NSNotificationCenter defaultCenter] xm_addObserver:self selector:@selector(sina:) name:@"sina" object:nil];
 ```
 
 //收到通知后立即移除监听对象
 
 // remove observer after receiving notification right now
-```
+```objc
 [[NSNotificationCenter defaultCenter] xm_addObserver:self selector:@selector(haha:) name:@"haha" object:nil isRightNowRemove:YES];
 ```
 
